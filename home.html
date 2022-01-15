@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link href="style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .main {
+            padding: 0 80px;
+        }
+
+        .nav-item {
+            padding: 0 20px;
+        }
+
+        .btn-out {
+            border-radius: 50px;
+            margin-right: 30px;
+            border-color: #007C45;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .btn-fill {
+            border-radius: 50px;
+            border-color: #007C45;
+            background-color: #007C45;
+            color: #fff;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .btn-fill:hover {
+            background-color: #fff;
+        }
+
+        .effect1 {
+            -webkit-box-shadow: 0 10px 0px 0px #ced4da;
+            -moz-box-shadow: 0 10px 6px -6px #ced4da;
+            box-shadow: 0 10px 6px -6px #ced4da;
+        }
+
+        .color {
+            color: #007C45;
+        }
+
+        .fs-h1 {
+            font-size: 3.5rem;
+        }
+
+        .card {
+            box-shadow: 0 0 10px #999;
+        }
+        .footer-bg{
+            background-image: url('img/footer.png');
+            background-position: bottom;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white effect1">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" alt="logo image"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Media Center</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="btn btn-out">Login</button>
+                            <button class="btn btn-fill">Sign Up</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <section class="py-4">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col col-lg-6">
+                        <h1 class="color fs-h1">Lorem Ipsum</h1>
+                        <p class="w-75">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <button class="btn btn-fill">Learn more</button>
+                    </div>
+                    <div class="col col-lg-6 p-0">
+                        <img src="img/home.png" alt="image" style="height: 100%;width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="color text-center my-5">
+                Services
+            </h1>
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col col-lg-4">
+                        <div class="card">
+                            
+                            <div class="card-body">
+                                <img src="img/edit.png" alt="..." width="50">
+                                <h4 class="card-title color">Lorem Ipsum</h5>
+
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of
+                                        the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/edit.png" alt="..." width="50">
+                                <h4 class="card-title color">Lorem Ipsum</h5>
+
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of
+                                        the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <img src="img/edit.png" alt="..." width="50">
+                                <h4 class="card-title color">Lorem Ipsum</h5>
+
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of
+                                        the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="color text-center">
+                            Lorem Ipsum
+                        </h1>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col col-lg-5 p-0">
+                        <img src="img/home.png" alt="image" style="height: 100%;width: 100%;border: 6px solid #007C45;">
+                    </div>
+
+                    <div class="col col-lg-7 px-5">
+                        <h1 class="color">Lorem Ipsum</h1>
+                        <p class="w-75">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                            Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                            printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <button class="btn btn-fill">Learn more</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container-fluid">
+                <div class="row align-items-center mt-5">
+                    <div class="col col-lg-5 p-0">
+                        <div class="row align-items-center">
+                            <div class="col-lg-12">
+                                <span class="d-flex">
+                                    <img src="img/login.jpg" width="50" height="50" style="margin-right: 10px;"
+                                        class="rounded-circle">
+                                    <input type="text" class="form-control rounded-pill" placeholder="Add comments...">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row align-items-center mt-5">
+                    <div class="col col-lg-5 p-0">
+                        <div class="row align-items-center">
+                            <div class="col-lg-12">
+                                <span class="d-flex">
+                                    <img src="img/login.jpg" width="50" height="50" style="margin-right: 10px;"
+                                        class="rounded-circle">
+                                    <div class="card rounded text-white" style="background-color: #007C45;">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Lorem Ipsum</h5>
+
+                                                <p class="card-text">Some quick example text to build on the card title
+                                                    and make
+                                                    up
+                                                    the bulk of
+                                                    the card's content.</p>
+                                        </div>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="text-center mt-5 pt-5 pb-2 text-white footer-bg">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" alt="logo image"></a>
+            <p class="mt-5">Info Support<br>Term of Use Privacy Policy<br>Copyright © 2022 Nigeria Immigration Service</p>
+        </footer>
+    </div>
+</body>
+
+</html>
