@@ -10,7 +10,8 @@
     <!-- Bootstrap CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <style>
-        .main {
+        .main,
+        .header {
             padding: 0 80px;
         }
 
@@ -56,7 +57,8 @@
         .card {
             box-shadow: 0 0 10px #999;
         }
-        .footer-bg{
+
+        .footer-bg {
             background-image: url('img/footer.png');
             background-position: bottom;
             background-repeat: no-repeat;
@@ -65,42 +67,43 @@
 </head>
 
 <body>
-    <div class="main">
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-white effect1">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" alt="logo image"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Services</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Media Center</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <button class="btn btn-out">Login</button>
-                            <button class="btn btn-fill">Sign Up</button>
-                        </form>
-                    </div>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white effect1">
+            <div class="container-fluid header">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" alt="logo image"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Media Center</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-out">Login</button>
+                        <button class="btn btn-fill">Sign Up</button>
+                    </form>
                 </div>
-            </nav>
-        </header>
+            </div>
+        </nav>
+    </header>
+    <div class="main">
         <section class="py-4">
             <div class="container-fluid">
                 <div class="row align-items-center">
@@ -123,7 +126,7 @@
                 <div class="row align-items-center">
                     <div class="col col-lg-4">
                         <div class="card">
-                            
+
                             <div class="card-body">
                                 <img src="img/edit.png" alt="..." width="50">
                                 <h4 class="card-title color">Lorem Ipsum</h5>
@@ -233,11 +236,11 @@
                 </div>
             </div>
         </section>
-        <footer class="text-center mt-5 pt-5 pb-2 text-white footer-bg">
-            <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" alt="logo image"></a>
-            <p class="mt-5">Info Support<br>Term of Use Privacy Policy<br>Copyright © 2022 Nigeria Immigration Service</p>
-        </footer>
     </div>
+    <footer class="text-center mt-5 pt-5 pb-2 text-white footer-bg">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" alt="logo image"></a>
+        <p class="mt-5">Info Support<br>Term of Use Privacy Policy<br>Copyright © 2022 Nigeria Immigration Service</p>
+    </footer>
 </body>
 
 </html>

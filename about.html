@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About page</title>
+    <link href="style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .main,
+        .header {
+            padding: 0 80px;
+        }
+
+        .nav-item {
+            padding: 0 20px;
+        }
+
+        .btn-out {
+            border-radius: 50px;
+            margin-right: 30px;
+            border-color: #007C45;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .btn-fill {
+            border-radius: 50px;
+            border-color: #007C45;
+            background-color: #007C45;
+            color: #fff;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        .btn-fill:hover {
+            background-color: #fff;
+        }
+
+        .effect1 {
+            -webkit-box-shadow: 0 10px 0px 0px #ced4da;
+            -moz-box-shadow: 0 10px 6px -6px #ced4da;
+            box-shadow: 0 10px 6px -6px #ced4da;
+        }
+
+        .color {
+            color: #007C45;
+        }
+
+        .fs-h1 {
+            font-size: 3.5rem;
+        }
+
+        .card {
+            box-shadow: 0 0 10px #999;
+        }
+
+        .footer-bg {
+            background-image: url('img/footer.png');
+            background-position: bottom;
+            background-repeat: no-repeat;
+        }
+
+        .form-bg-color {
+            background-color: #bdddcf;
+        }
+
+        .banner {
+            background-image: url('img/About-bg.png');
+            width: 100%;
+            height: 80vh;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white effect1">
+            <div class="container-fluid header">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" alt="logo image"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Media Center</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-out">Login</button>
+                        <button class="btn btn-fill">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="banner d-flex justify-content-center align-items-center">
+        <h1 class="text-white">About</h1>
+    </div>
+    <div class="main">
+        <section class="my-5">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+
+                    <div class="col col-lg-12 p-0">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="text-center mt-5 pt-5 pb-2 text-white footer-bg">
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="200" alt="logo image"></a>
+        <p class="mt-5">Info Support<br>Term of Use Privacy Policy<br>Copyright © 2022 Nigeria Immigration Service</p>
+    </footer>
+</body>
+
+</html>
